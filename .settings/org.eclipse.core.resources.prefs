@@ -1,6 +1,10 @@
 eclipse.preferences.version=1
 encoding//src/com/edabit/BasicCalculator.java=UTF-8
 encoding//src/com/edabit/CheckIfStringsMatch.java=UTF-8
+encoding//src/com/edabit/ExistsANumberHigher.java=UTF-8
+encoding//src/com/edabit/FindTheDiscount.java=UTF-8
 encoding//src/com/edabit/GetWordCount.java=UTF-8
 encoding//src/com/edabit/HowMuchIsTrue.java=UTF-8
+encoding//src/com/edabit/QuadraticSolutions.java=UTF-8
+encoding//src/com/edabit/SuffleTheName.java=UTF-8
 encoding//src/com/edabit/TriangularNumbers.java=UTF-8
