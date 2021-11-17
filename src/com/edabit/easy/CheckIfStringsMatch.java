@@ -1,4 +1,4 @@
-package com.edabit;
+package com.edabit.easy;
 
 /*
  * checkEnding("abc", "bc") ➞ true

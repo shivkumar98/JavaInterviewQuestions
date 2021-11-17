@@ -1,4 +1,4 @@
-package com.edabit;
+package com.edabit.easy;
 
 /*
  * This Triangular Number Sequence is generated from a pattern of dots that form a triangle. The first 5 numbers of the sequence, or dots, are:

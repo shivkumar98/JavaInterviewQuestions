@@ -1,4 +1,4 @@
-package com.edabit;
+package com.edabit.easy;
 /*
  * How Many Solutions Does This Quadratic Have?
 

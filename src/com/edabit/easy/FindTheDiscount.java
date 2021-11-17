@@ -1,4 +1,4 @@
-package com.edabit;
+package com.edabit.easy;
 /*
  * 
  * Create a function that takes two arguments: the original price and the 
