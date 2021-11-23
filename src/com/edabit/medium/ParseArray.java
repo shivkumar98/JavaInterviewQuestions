@@ -1,4 +1,4 @@
-package com.edabit.hard;
+package com.edabit.medium;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
