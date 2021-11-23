@@ -19,19 +19,15 @@ Notes
 
 public class VideoLength {
 	
-	public static int minuteToSeconds(String str) {
+	public static int minuteToSeconds(String tm) {
 		//split string
-		String[] splitString = str.split(":");
+		String[] splitString = tm.split(":");
 		
 		// getting the minutes and secs as an integer
 		int minutes = Integer.parseInt(splitString[0]);
 		int seconds = Integer.parseInt(splitString[1]);
 		
-		if (seconds>=60) {
-			return -1;
-		} else {
-			return minutes*60 +seconds;
-		}
+		return seconds>=60 ? -1 : seconds + minutes*60;
 
 	}
 	
