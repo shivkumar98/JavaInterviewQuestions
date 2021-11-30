@@ -31,19 +31,11 @@ public class RansomLetter {
 		}
 		
 		for (Character key: secondMap.keySet()) {
-			System.out.println(key);
-			System.out.println(firstMap.getOrDefault(key, 0));
-			
-			System.out.println(secondMap.get(key)
-					);
-
 			if (firstMap.getOrDefault(key, 0)<secondMap.get(key)) {
 				return false;
 			}
-			
 		}
 		return true;
-		
 	}
 	
 
