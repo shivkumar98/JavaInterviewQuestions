@@ -5,7 +5,7 @@ import java.util.Arrays;
 /* Q3) Write a Java Program to swap two numbers
  *  using the third variable.
  */
-public class Question3 {
+public class Q3 {
 	
 	public static void main(String[] args) {
 		int[] swappedIntegers = swap(2,3);

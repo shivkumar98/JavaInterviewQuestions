@@ -8,7 +8,7 @@ import java.util.Map;
  * 
  */
 
-public class Question5 {
+public class Q5 {
 	
 	public static void main(String[] args) {
 		String string= "this this this this this";
