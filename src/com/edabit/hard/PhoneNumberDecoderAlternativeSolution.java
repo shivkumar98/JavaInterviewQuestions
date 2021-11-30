@@ -26,7 +26,9 @@ public class PhoneNumberDecoderAlternativeSolution {
 	
 	static String textToNum(String phone) {
 		return phone.replaceAll("[ABC]", "2")
-				.replaceAll("[DEF]", "3")
+				.replaceAll("[DEF]"
+						+ "3"
+						+ "", "3")
 				.replaceAll("[GHI]", "4")
 				.replaceAll("[JKL]", "5")
 				.replaceAll("[MNO]","6")
