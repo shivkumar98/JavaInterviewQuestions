@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*  Q4) Write a Java Program to swap two numbers
  *  without using the third variable.
  */
-public class q4 {
+public class Q4 {
 	public static void main(String[] args) {
 		Arrays.stream(swap(1,2)).forEach(E -> System.out.println(E));
 	}
