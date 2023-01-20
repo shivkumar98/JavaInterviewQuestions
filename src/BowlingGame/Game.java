@@ -16,8 +16,6 @@ public class Game {
 
 
     public void roll(int pins){
-        System.out.println("frame: "+frame);
-        System.out.println("throwsofFrame: "+ Arrays.toString(throwsOfFrame));
         if (frame>=1 && frame<=9){
             if (throwsOfFrame[frame-1]==0){ // no throws made yet
                 pinScores.put(frame, pins);
@@ -43,7 +41,7 @@ public class Game {
             }
 
         } else if (frame==10){
-            // to do: logic
+            // to do: logic for final frame
         }
     }
 
@@ -65,7 +63,6 @@ public class Game {
             game.roll(5);
         }
 
-        System.out.println(game.score());
+        System.out.println(game.score()); // returns 155
     }
-}
 }
