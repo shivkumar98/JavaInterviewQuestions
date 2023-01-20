@@ -12,8 +12,7 @@ public class Q10ArrayLists {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> myList = new ArrayList<>();
-		myList.addAll(List.of(1,2,3,4,56,78));
-		
+
 		System.out.println("Standard for loop");
 		for (int i = 0; i<myList.size(); i++) {
 			System.out.println(myList.get(i));
